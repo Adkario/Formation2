@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://www.genspark.ai/api/files/s/Y2h5A4Mf -->
+<html lang="fr" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Techniques Préfabriqués - ADKARIO</title>
+
+    <!-- Google Fonts -->
+    <link href="./Formation Techniques Préfabriqués - ADKARIO_files/css2" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="./Formation Techniques Préfabriqués - ADKARIO_files/lucide.js" rel="stylesheet">
+
+    <style>
+      /* Reset et Variables */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --navy-blue: #1a2b4a;
+        --cyan: #00d4ff;
+        --dark-gray: #2d3748;
+        --light-gray: #e2e8f0;
+        --white: #ffffff;
+        --spacing-base: 8px;
+        --border-radius: 8px;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        color: var(--dark-gray);
+        margin: 0;
+        padding: 0;
+        max-width: none;
+      }
+
+      /* Typographie */
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: var(--navy-blue);
+        margin-bottom: calc(var(--spacing-base) * 2);
+      }
+
+      h1 {
+        font-size: 48px;
+        line-height: 1.2;
+      }
+      h2 {
+        font-size: 36px;
+        line-height: 1.3;
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 1.4;
+      }
+      h4 {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+
+      p {
+        margin-bottom: calc(var(--spacing-base) * 2);
+        font-size: 16px;
+      }
+
+      /* Header/Navigation */
+      .header {
+        background: var(--white);
+        padding: calc(var(--spacing-base) * 2) calc(var(--spacing-base) * 5);
+        box-shadow: 0 2px 8px rgba(26, 43, 74, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .logo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--navy-blue);
+        text-decoration: none;
+      }
+
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: calc(var(--spacing-base) * 4);
+      }
+
+      .nav-menu a {
+        text-decoration: none;
+        color: var(--dark-gray);
+        font-weight: 500;
+        padding: calc(var(--spacing-base) * 1) calc(var(--spacing-base) * 2);
+        border-radius: var(--border-radius);
+        transition: color 0.3s ease;
+      }
+
+      .nav-menu a:hover {
+        color: var(--cyan);
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 32px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        margin: calc(var(--spacing-base) * 1);
+      }
+
+      .btn-primary {
+        background: var(--cyan);
+        color: var(--white);
+      }
+
+      .btn-primary:hover {
+        background: var(--navy-blue);
+      }
+
+      .btn-secondary {
+        background: transparent;
+        color: var(--navy-blue);
+        border: 2px solid var(--navy-blue);
+      }
+
+      .btn-secondary:hover {
+        background: var(--navy-blue);
+        color: var(--white);
+      }
+
+      /* Hero Section */
+      .hero {
+        background: linear-gradient(135deg, var(--navy-blue) 0%, var(--dark-gray) 100%);
+        color: var(--white);
+        padding: calc(var(--spacing-base) * 12) calc(var(--spacing-base) * 5);
+        text-align: center;
+      }
+
+      .hero-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .hero h1 {
+        color: var(--white);
+        margin-bottom: calc(var(--spacing-base) * 3);
+      }
+
+      .hero-subtitle {
+        font-size: 24px;
+        color: var(--cyan);
+        margin-bottom: calc(var(--spacing-base) * 3);
+        font-weight: 600;
+      }
+
+      .hero-badges {
+        display: flex;
+        justify-content: center;
+        gap: calc(var(--spacing-base) * 2);
+        margin-bottom: calc(var(--spacing-base) * 4);
+        flex-wrap: wrap;
+      }
+
+      .badge {
+        background: var(--cyan);
+        color: var(--white);
+        padding: calc(var(--spacing-base) * 1) calc(var(--spacing-base) * 3);
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      /* Section générale */
+      .section {
+        padding: calc(var(--spacing-base) * 10) calc(var(--spacing-base) * 5);
+      }
+
+      .section-alt {
+        background: var(--light-gray);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: calc(var(--spacing-base) * 8);
+      }
+
+      /* Programme Section */
+      .program-module {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: calc(var(--spacing-base) * 4);
+        margin-bottom: calc(var(--spacing-base) * 3);
+        box-shadow: 0 2px 8px rgba(26, 43, 74, 0.1);
+        border-left: 4px solid var(--cyan);
+      }
+
+      .module-header {
+        display: flex;
+        align-items: center;
+        gap: calc(var(--spacing-base) * 2);
+        margin-bottom: calc(var(--spacing-base) * 3);
+      }
+
+      .module-days {
+        background: var(--navy-blue);
+        color: var(--white);
+        padding: calc(var(--spacing-base) * 1) calc(var(--spacing-base) * 2);
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .module-title {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .module-content ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .module-content li {
+        padding: calc(var(--spacing-base) * 0.5) 0;
+        position: relative;
+        padding-left: calc(var(--spacing-base) * 3);
+      }
+
+      .module-content li::before {
+        content: '•';
+        color: var(--cyan);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      /* Info Cards */
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: calc(var(--spacing-base) * 4);
+        margin-bottom: calc(var(--spacing-base) * 6);
+      }
+
+      .info-card {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: calc(var(--spacing-base) * 4);
+        box-shadow: 0 2px 8px rgba(26, 43, 74, 0.1);
+      }
+
+      .info-card h3 {
+        color: var(--cyan);
+        margin-bottom: calc(var(--spacing-base) * 3);
+      }
+
+      .info-list {
+        list-style: none;
+      }
+
+      .info-list li {
+        padding: calc(var(--spacing-base) * 1) 0;
+        border-bottom: 1px solid var(--light-gray);
+      }
+
+      .info-list li:last-child {
+        border-bottom: none;
+      }
+
+      /* Formateur Section */
+      .formateur-card {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: calc(var(--spacing-base) * 6);
+        box-shadow: 0 4px 16px rgba(26, 43, 74, 0.1);
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .formateur-name {
+        font-size: 28px;
+        color: var(--navy-blue);
+        margin-bottom: calc(var(--spacing-base) * 2);
+      }
+
+      .formateur-title {
+        color: var(--cyan);
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: calc(var(--spacing-base) * 4);
+      }
+
+      /* CTA Section */
+      .cta-section {
+        background: var(--navy-blue);
+        color: var(--white);
+        text-align: center;
+        padding: calc(var(--spacing-base) * 10) calc(var(--spacing-base) * 5);
+      }
+
+      .cta-section h2 {
+        color: var(--white);
+        margin-bottom: calc(var(--spacing-base) * 4);
+      }
+
+      .btn-white {
+        background: var(--white);
+        color: var(--navy-blue);
+        font-size: 16px;
+        padding: 14px 32px;
+      }
+
+      .btn-white:hover {
+        background: var(--cyan);
+        color: var(--white);
+      }
+
+      /* Footer */
+      .footer {
+        background: var(--dark-gray);
+        color: var(--white);
+        padding: calc(var(--spacing-base) * 8) calc(var(--spacing-base) * 5);
+      }
+
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: calc(var(--spacing-base) * 6);
+      }
+
+      .footer-section h3 {
+        color: var(--cyan);
+        margin-bottom: calc(var(--spacing-base) * 3);
+      }
+
+      .footer-section p,
+      .footer-section a {
+        color: var(--light-gray);
+        text-decoration: none;
+        margin-bottom: calc(var(--spacing-base) * 1);
+      }
+
+      .footer-section a:hover {
+        color: var(--cyan);
+      }
+
+      .footer-bottom {
+        border-top: 1px solid var(--navy-blue);
+        margin-top: calc(var(--spacing-base) * 6);
+        padding-top: calc(var(--spacing-base) * 4);
+        text-align: center;
+        color: var(--light-gray);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .nav-menu {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+        h2 {
+          font-size: 28px;
+        }
+
+        .hero {
+          padding: calc(var(--spacing-base) * 8) calc(var(--spacing-base) * 3);
+        }
+
+        .section {
+          padding: calc(var(--spacing-base) * 6) calc(var(--spacing-base) * 3);
+        }
+
+        .hero-badges {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <div class="nav-container">
+        <a href="https://www.genspark.ai/api/files/s/index.html" class="logo">ADKARIO</a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="https://www.genspark.ai/api/files/s/index.html">Accueil</a></li>
+            <li><a href="https://www.genspark.ai/api/files/s/index.html#formations">Formations</a></li>
+            <li><a href="https://www.genspark.ai/api/files/s/index.html#expertise">Expertise</a></li>
+            <li><a href="https://www.genspark.ai/api/files/s/index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="https://www.genspark.ai/api/files/s/index.html#contact" class="btn btn-primary">Nous contacter</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1>Formation Techniques Préfabriqués</h1>
+        <div class="hero-subtitle">Nouvelle technique de construction - Les préfabriqués</div>
+        <div class="hero-badges">
+          <span class="badge">15 jours / 120 heures</span>
+          <span class="badge">Formation certifiante</span>
+          <span class="badge">Niveau Confirmé</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Présentation -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Présentation de la Formation</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>Description</h3>
+            <p>
+              Cette formation intensive vous permettra de maîtriser les nouvelles techniques de construction
+              préfabriquée, depuis la conception jusqu'à la mise en œuvre. Elle couvre l'ensemble des aspects
+              techniques, sécuritaires et qualité liés aux systèmes préfabriqués et blocs coffrants.
+            </p>
+            <p>
+              Vous découvrirez les avantages de la préfabrication en termes de rapidité d'exécution, de qualité et de
+              performance énergétique, tout en développant les compétences nécessaires pour intégrer ces techniques
+              innovantes dans vos projets.
+            </p>
+          </div>
+          <div class="info-card">
+            <h3>Objectifs Pédagogiques</h3>
+            <ul class="info-list">
+              <li>Maîtriser les systèmes préfabriqués et blocs coffrants</li>
+              <li>Assurer la sécurité sur chantier de préfabrication</li>
+              <li>Optimiser l'assemblage et le montage</li>
+              <li>Gérer les finitions spécifiques</li>
+              <li>Anticiper les évolutions technologiques</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Public Concerné</h3>
+            <ul class="info-list">
+              <li>Entrepreneurs du BTP</li>
+              <li>Chefs de chantier</li>
+              <li>Artisans spécialisés</li>
+              <li>Chefs d'équipe</li>
+              <li>Ouvriers qualifiés</li>
+              <li>Maçons expérimentés</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Programme Détaillé -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Programme Détaillé - 15 Jours</h2>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 1</span>
+            <h4 class="module-title">Introduction aux systèmes préfabriqués</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Accueil et présentation du programme de formation</li>
+              <li>Présentation détaillée des solutions de construction blocs coffrants et prémurs isolants</li>
+              <li>Analyse comparative avec les autres modes constructifs</li>
+              <li>Études de cas de projets réalisés avec la préfabrication</li>
+              <li>Introduction à la préfabrication : concepts, avantages et applications</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 2</span>
+            <h4 class="module-title">Sélection des matériaux pour un gros œuvre performant</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Critères de sélection en fonction des besoins et des contraintes du projet</li>
+              <li>Critères de sélection des dalles en fonction des besoins et des contraintes du projet</li>
+              <li>Critères de sélection des toitures en fonction des besoins et des contraintes du projet</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 3</span>
+            <h4 class="module-title">Conception et planification</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Intégration des blocs coffrants et/ou prémurs isolants dans la conception architecturale</li>
+              <li>Planification de l'installation des prémurs isolants dans le processus de construction</li>
+              <li>Lectures et analyse des différents plans d'exécution (architectural, structurel)</li>
+              <li>Exemples de plans détaillés et d'études de faisabilité</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jours 4-5</span>
+            <h4 class="module-title">Préparation du chantier / Sécurité et Qualité</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Normes de sécurité sur le chantier</li>
+              <li>Formation aux équipements de protection individuelle (EPI)</li>
+              <li>Contrôle de qualité des composants préfabriqués</li>
+              <li>Exemples pratiques de chargement et de déchargement</li>
+              <li>Études de cas de transport sécurisé</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jours 6-7</span>
+            <h4 class="module-title">Préparation du Site de Construction</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Travaux préliminaires : excavation, fondations, préparation du terrain</li>
+              <li>
+                Implantation et traçage des fondations selon les contraintes géologiques, structurelles et thermiques
+              </li>
+              <li>
+                Techniques d'installation des fondations isolantes, manipulation et pose correcte ainsi que la mise en
+                place des isolants et des aciers
+              </li>
+              <li>Implantation des réseaux : plomberie, électricité, communication</li>
+              <li>Techniques de préparation spécifiques aux composants préfabriqués</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jours 8-9</span>
+            <h4 class="module-title">Assemblage des Composants Préfabriqués</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Utilisation de grues et d'équipements spécialisés pour l'assemblage</li>
+              <li>Traçage et mise en place des surfaces recevant les préfabriqués</li>
+              <li>Positionnement et fixation des prémurs isolants</li>
+              <li>Simulation d'assemblage et de montage</li>
+              <li>
+                Les bonnes pratiques afin de s'assurer la réussite d'un coulage béton et d'une parfaite étanchéité à
+                l'air des parois structurelles
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 10</span>
+            <h4 class="module-title">Intégration des Services / Liaisons et jonctions des prémurs isolants</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Connexion des systèmes électriques et de plomberie entre les modules</li>
+              <li>Techniques de raccordement et de vérification</li>
+              <li>Tests de fonctionnement des systèmes intégrés</li>
+              <li>
+                Méthodes de liaison et de jonction des prémurs isolants pour assurer une continuité thermique et
+                structurelle
+              </li>
+              <li>Exemples pratiques et études de cas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 11</span>
+            <h4 class="module-title">Contrôle de la qualité</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Vérification de la conformité des prémurs isolants installés aux normes et aux plans</li>
+              <li>Normes et mise en sécurité du chantier pendant la durée du chantier</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 12</span>
+            <h4 class="module-title">Gestion des finitions</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Techniques de peinture et de revêtements</li>
+              <li>Finitions intérieures : carrelage, parquet, etc.</li>
+              <li>Finitions extérieures : enduit, parement, bardage, etc.</li>
+              <li>Choix et technique application de revêtements et de finitions esthétiques</li>
+              <li>Choix et technique installation des menuiseries et des coffres de volets roulants ou des BSO</li>
+              <li>Ateliers pratiques sur des éléments préfabriqués</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 13</span>
+            <h4 class="module-title">Contrôle Final, Mise en Service et Certifications de fin de chantier</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Inspection finale : contrôle de qualité et conformité</li>
+              <li>Procédures de réception du bâtiment</li>
+              <li>Mise en service et ajustements finaux</li>
+              <li>Comment obtenir une attestation de fin de chantier RE2020</li>
+              <li>Autres labels et certifications énergétiques</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 14</span>
+            <h4 class="module-title">Innovations et Tendances Futures</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Innovations dans les techniques de préfabrication</li>
+              <li>Technologies émergentes (impression 3D, nouveaux matériaux)</li>
+              <li>Tendances futures et perspectives de développement</li>
+              <li>Discussions et échanges d'idées</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="program-module">
+          <div class="module-header">
+            <span class="module-days">Jour 15</span>
+            <h4 class="module-title">Évaluation et Feedback</h4>
+          </div>
+          <div class="module-content">
+            <ul>
+              <li>Évaluation des connaissances acquises (tests théoriques et pratiques)</li>
+              <li>Retour d'expérience des participants</li>
+              <li>Discussion des résultats et des axes d'amélioration</li>
+              <li>Séance de questions-réponses</li>
+              <li>Échanges informels</li>
+              <li>Évaluation formation / retour à chaud</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Méthodes & Modalités -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Méthodes Pédagogiques &amp; Modalités</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>Méthodes Pédagogiques</h3>
+            <ul class="info-list">
+              <li>Exposés théoriques</li>
+              <li>Cas pratiques</li>
+              <li>Mises en situation chantier</li>
+              <li>Simulations d'assemblage</li>
+              <li>Ateliers pratiques</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Modalités d'Évaluation</h3>
+            <ul class="info-list">
+              <li>Feuille d'évaluation</li>
+              <li>Tests théoriques et pratiques</li>
+              <li>Mises en situation chantier</li>
+              <li>Attestation de formation</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Informations Pratiques</h3>
+            <ul class="info-list">
+              <li><strong>Prérequis :</strong> Compétences minimales pour professionnels de la construction</li>
+              <li><strong>Effectif :</strong> 1 à 5 stagiaires</li>
+              <li><strong>Horaires :</strong> 9h00-12h00 et 14h00-18h00</li>
+              <li><strong>Lieu :</strong> Intra (dans les locaux du stagiaire)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Formateur -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Votre Formateur</h2>
+        <div class="formateur-card">
+          <h3 class="formateur-name">Marc FRAISIER</h3>
+          <div class="formateur-title">Expert de la construction durable et de la préfabrication</div>
+          <p>
+            Expert reconnu dans le domaine de la construction durable et des techniques de préfabrication. Spécialisé
+            dans l'accompagnement des professionnels du BTP vers les nouvelles méthodes de construction rapides,
+            efficaces et respectueuses de l'environnement.
+          </p>
+          <p>
+            Fort d'une expérience terrain de plusieurs années, il maîtrise parfaitement les enjeux techniques,
+            sécuritaires et économiques liés aux systèmes préfabriqués et aux blocs coffrants.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Prêt à vous inscrire ?</h2>
+        <p style="font-size: 18px; margin-bottom: 32px">
+          Cette formation vous permettra de maîtriser les techniques de préfabrication, un secteur en pleine expansion
+          qui révolutionne les méthodes de construction traditionnelles.
+        </p>
+        <div>
+          <a href="https://www.genspark.ai/api/files/s/index.html#contact" class="btn btn-white">Demander un devis personnalisé</a>
+          <a href="https://www.genspark.ai/api/files/s/Y2h5A4Mf#" class="btn btn-secondary" style="background: transparent; border: 2px solid white; color: white">Télécharger le programme PDF</a>
+        </div>
+        <p style="font-size: 14px; margin-top: 24px; opacity: 0.8">
+          Formation éligible au financement OPCO - Nous vous accompagnons dans vos démarches
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ADKARIO</h3>
+          <p>Centre de Formation</p>
+          <p><strong>Téléphone :</strong> <span style="display:inline"><img src="chrome-extension://fajmnddnafkmfdeekbkjcpohhoodhgjj/images/logo20.png" height="20" width="20" style="margin:0 2px;padding:0;width:20px;height:20px;" alt="Zoiper Click2Dial"><a href="zoiper:+330622815972">+33 (0)6 22 81 59 72</a><img src="chrome-extension://fajmnddnafkmfdeekbkjcpohhoodhgjj/images/flags/fr.png" height="16" width="28" style="margin:0 2px;padding:0;width:28px;height:16px;" alt="FR"></span></p>
+          <p><strong>Email :</strong> contact@adkario.fr</p>
+        </div>
+        <div class="footer-section">
+          <h3>Nos Formations</h3>
+          <p><a href="https://www.genspark.ai/api/files/s/formation-eco-construction.html">Éco-Construction (30j)</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/formation-prefabriques.html">Préfabriqués (15j)</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/formation-construction-durable.html">Construction Durable (37,5j)</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Informations</h3>
+          <p><a href="https://www.genspark.ai/api/files/s/Y2h5A4Mf#">Financement OPCO</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/Y2h5A4Mf#">Modalités d'inscription</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/Y2h5A4Mf#">Certifications</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Liens Rapides</h3>
+          <p><a href="https://www.genspark.ai/api/files/s/index.html">Accueil</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/index.html#formations">Formations</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/index.html#expertise">Expertise</a></p>
+          <p><a href="https://www.genspark.ai/api/files/s/index.html#contact">Contact</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2025 ADKARIO - Tous droits réservés | Organisme de formation N° en cours d'obtention |
+          <a href="https://www.genspark.ai/api/files/s/Y2h5A4Mf#">Mentions légales</a>
+        </p>
+      </div>
+    </footer>
+  <script defer="" src="./Formation Techniques Préfabriqués - ADKARIO_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;9a4235217fc4f5c5&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.9.1&quot;,&quot;token&quot;:&quot;4edd5f8ec12a48cfa682ab8261b80a79&quot;}" crossorigin="anonymous"></script>
+
+
+</body></html>
